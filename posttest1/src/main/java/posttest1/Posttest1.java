@@ -43,7 +43,7 @@ public class Posttest1 {
                         hargas = Integer.parseInt(harga);
                     }
                     catch(NumberFormatException e) {
-                        System.out.println("ini bukan angka");
+                        System.out.println("Input harus angka!");
                     }
                     System.out.print("Stok Barang : ");
                     String stok = input.readLine();
@@ -51,7 +51,7 @@ public class Posttest1 {
                         stoks = Integer.parseInt(stok);
                     }
                     catch(NumberFormatException e) {
-                        System.out.println("ini bukan angka");
+                        System.out.println("Input harus angka!");
                     }
                     Sembako dataBaru = new Sembako(kode, nama, hargas, stoks);
                     dataSembako.add(dataBaru);

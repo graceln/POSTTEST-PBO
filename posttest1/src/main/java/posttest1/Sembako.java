@@ -6,7 +6,6 @@ package posttest1;
 public class Sembako {
     private String kode, nama;
     private int harga, stok; 
-;
 
     public Sembako(String kode, String nama, int harga, int stok) {
         this.kode = kode;
